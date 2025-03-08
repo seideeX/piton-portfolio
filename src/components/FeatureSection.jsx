@@ -12,8 +12,14 @@ const FeatureSection = () => {
             </div>
             <div className="mt-10 lg:mt-20 flex flex-wrap">
                 {servicesection.map((item, index) => (
-                    <div className="w-full" key={index}>
-                        <img src={item.img} alt="" />
+                    <div className="w-full m-5" key={index}>
+                        <div className="flex justify-between items-center space-x-12">
+                            <img src={item.img} alt="" />
+                            <div>
+                                <h2>{item.title}</h2>
+                                <p>{item.desc}</p>
+                            </div>
+                        </div>
                     </div>
                 ))}
             </div>
