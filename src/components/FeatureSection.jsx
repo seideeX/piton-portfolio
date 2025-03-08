@@ -1,5 +1,5 @@
-import React from 'react'
-import srvcs from "../constants/index.jsx"
+import React from 'react';
+import {servicesection} from "../constants/index.jsx";
 
 const FeatureSection = () => {
     return (
@@ -11,7 +11,7 @@ const FeatureSection = () => {
                 <h2 className='mt-10 text-3xl sm:text-5xl lg:text-6xl tracking-wide'>We offer <span className='bg-gradient-to-b from-blue-800 to-blue-300 text-transparent bg-clip-text'>quality services.</span></h2>
             </div>
             <div className="mt-10 lg:mt-20 flex flex-wrap">
-                {srvcs.map((item, index) => (
+                {servicesection.map((item, index) => (
                     <div className="w-full" key={index}>
                         <img src={item.img} alt="" />
                     </div>
