@@ -11,12 +11,12 @@ const HeroSection = () => {
                 <a href="#" className="border border-blue-700 py-2 px-3 mx-3 rounded-md text-blue-700 font-semibold hover:bg-blue-700 hover:text-white transition duration-400">See Services</a>
             </div>
             <div className="flex justify-center my-10">
-                <div className="border border-blue-900 rounded-lg shadow-lg shadow-indigo-500/50 p-6 w-1/2 mx-5 my-4">
+                <div className="border border-blue-900 rounded-lg shadow-lg shadow-indigo-500/50 p-6 w-1/2 mx-5 my-4 hover:scale-90 transition duration-300">
                     <img src={logo} alt="Piton Logo" className='h-100 w-100'/>
                     <p className='text-xl text-center'>Philippine Information Technology of the North</p>
                     <p className='italic text-sm text-center text-neutral-500 mt-4'>Official Logo</p>
                 </div>
-                <div className="border border-amber-400 rounded-lg shadow-lg shadow-yellow-400/70 p-6 w-1/2 mx-5 my-4">
+                <div className="border border-amber-400 rounded-lg shadow-lg shadow-yellow-400/70 p-6 w-1/2 mx-5 my-4 hover:scale-90 transition duration-300">
                     <img src={logo2} alt="ITA Logo" className='h-100 w-100'/>
                     <p className='text-xl text-center'>Information Technology Associates</p>
                     <p className='italic text-sm text-center text-neutral-500 mt-4'>Official Logo</p>
