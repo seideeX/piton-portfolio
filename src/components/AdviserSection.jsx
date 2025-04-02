@@ -1,5 +1,6 @@
 import React from 'react'
 import { advisers } from '../constants'
+import { Facebook, Mail, Linkedin } from 'lucide-react';
 const AdviserSection = () => {
     return (
         <div className='mt-20'>
@@ -11,8 +12,10 @@ const AdviserSection = () => {
                         <div className='px-6 text-center'>
                             <h2 className="text-2xl mt-4">{item.name}</h2>
                             <p className='italic text-neutral-500'>{item.rank}</p>
-                            <div className="flex">
-                                
+                            <div className="flex justify-center items-center space-x-4 my-4">
+                                <Facebook className='text-neutral-500 hover:cursor-pointer'/>
+                                <Mail className='text-neutral-500 hover:cursor-pointer'/>
+                                <Linkedin className='text-neutral-500 hover:cursor-pointer'/>
                             </div>
                         </div>
                         

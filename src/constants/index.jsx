@@ -3,6 +3,8 @@ import service2 from "../assets/services/print.jpg";
 import adv1 from "../assets/advisers/adviser1.png";
 import adv2 from "../assets/advisers/adviser2.png";
 import adv3 from "../assets/advisers/adviser3.png";
+import merch1 from "../assets/merch/sample1.png";
+import merch2 from "../assets/merch/Id wire.png";
 
 export const navItems = [
     {label: 'Home', href: '#'},
@@ -20,4 +22,9 @@ export const advisers = [
     {img: adv1, name: "Orfel L. Bejarin", rank: "Doctor in Information Technology"},
     {img: adv2, name: "Marl Gil T. Gañgan", rank: "Master in Information Technology"},
     {img: adv3, name: "Angelo R. Gamara", rank: "Master in Information Technology"}
+]
+
+export const merchandise = [
+    {img: merch1, name: "Organizational Shirt", price: "500 PHP"},
+    {img: merch2, name: "Organizational Lanyard", price: "100 PHP"},
 ]

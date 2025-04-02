@@ -13,10 +13,10 @@ const FeatureSection = () => {
             <div className="mt-10 lg:mt-20 flex flex-wrap">
                 {servicesection.map((item, index) => (
                     <div className="w-full my-10" key={index}>
-                        <div className="flex justify-between items-center space-x-12">
+                        <div className="flex flex-col lg:flex-row justify-center items-center space-x-12">
                             <img src={item.img} alt="" className='rounded-xl shadow-xl shadow-indigo-500/80 hover:scale-105 transition duration-300' />
                             <div className='flex flex-col items-center'>
-                                <h2 className='text-3xl sm:text-5xl lg:text-6xl mb-8'>{item.title}</h2>
+                                <h2 className='text-3xl sm:text-5xl lg:text-6xl my-8'>{item.title}</h2>
                                 <p className='text-xl text-neutral-500'>{item.desc}</p>
                                 <a href="#" className="border border-blue-700 py-2 px-3 rounded-xl w-80 text-center mt-5 hover:bg-blue-800 transition-all duration-300 ease-in-out hover:shadow-md shadow-indigo-500">
                                     Avail
